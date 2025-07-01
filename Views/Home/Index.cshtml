@@ -3,13 +3,14 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<partial  name="_SlideShow" />
+
+
+
 <div>
     @foreach(var item in Model)
     {
+        <p><img src="@item.Imagem" class="img-fluid" asp-append-version="true" style="height:100px; width: 100px" /></p>
         @Html.DisplayFor(modelItem => item.Titulo);
     }
 </div>

@@ -1,16 +1,19 @@
 using Microsoft.EntityFrameworkCore;
+using Site_News.Models;
 using Treino_MVC.Context;
 using Treino_MVC.Repository;
 using Treino_MVC.Repository.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-
 builder.Services.AddTransient<INoticiaRepository, NoticiaRepository>();
+
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
            options.UseSqlServer(connection));
+
+builder.Services.Configure<ConfigurationImagens>(builder.Configuration
+    .GetSection("ConfigurationPastaImagens"));
 
 builder.Services.AddTransient<INoticiaRepository, NoticiaRepository>();
 // Add services to the container.

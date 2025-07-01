@@ -333,3 +333,4 @@ C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\obj\Debug\net9.0\refint\Site_Ne
 C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\obj\Debug\net9.0\Site_News.pdb
 C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\obj\Debug\net9.0\Site_News.genruntimeconfig.cache
 C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\obj\Debug\net9.0\ref\Site_News.dll
+C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\obj\Debug\net9.0\Site_News.sourcelink.json
