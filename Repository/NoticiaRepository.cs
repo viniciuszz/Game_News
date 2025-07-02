@@ -14,5 +14,10 @@ namespace Treino_MVC.Repository
         }
 
         public IEnumerable<Noticia> Noticias => _context.Noticias;
+
+        public Noticia GetNoticiaById(int noticiaId)
+        {
+            return _context.Noticias.FirstOrDefault(t => t.NoticiaId == noticiaId);
+        }
     }
 }

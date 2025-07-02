@@ -7679,9 +7679,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Visual_studio\\Projetos_C#\\testsite\\Treino_MVC\\Site_News.csproj",
-      "projectName": "Site_News",
-      "projectPath": "C:\\Visual_studio\\Projetos_C#\\testsite\\Treino_MVC\\Site_News.csproj",
+      "projectUniqueName": "C:\\Visual_studio\\Projetos_C#\\testsite\\Treino_MVC\\Treino_MVC.csproj",
+      "projectName": "Treino_MVC",
+      "projectPath": "C:\\Visual_studio\\Projetos_C#\\testsite\\Treino_MVC\\Treino_MVC.csproj",
       "packagesPath": "C:\\Users\\ESTOQUE RENATO\\.nuget\\packages\\",
       "outputPath": "C:\\Visual_studio\\Projetos_C#\\testsite\\Treino_MVC\\obj\\",
       "projectStyle": "PackageReference",

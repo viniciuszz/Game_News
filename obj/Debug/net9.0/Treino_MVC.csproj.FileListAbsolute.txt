@@ -333,3 +333,4 @@ C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\bin\Debug\net9.0\ru\Microsoft.C
 C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Visual_studio\Projetos_C#\testsite\Treino_MVC\obj\Debug\net9.0\Treino_MVC.sourcelink.json
