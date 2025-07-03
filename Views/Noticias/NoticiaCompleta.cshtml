@@ -1,7 +1,22 @@
 ﻿@using Treino_Mvc.Models
 @model Noticia
 
-
-<div>
-    @Model.Texto
+<div class="div_geral col-12">
+    <div class="headnoticia"> 
+    <p style="text-align: center; width: 100%; font-size: 20px;">
+            @Model.Titulo
+    </p>
+    <p>
+        @Model.SubTitulo
+    </p>
+    <div class="data">
+        @Model.DataDaNoticia
+    </div>
+    </div>
+    <div class="imagem_noticia col-12">
+        <img src="@Model.Imagem" class="img-fluid" asp-append-version="true" style="height:500px; width: 100%" />
+    </div>
+    <div>
+        @Model.Texto
+    </div>
 </div>

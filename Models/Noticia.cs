@@ -8,8 +8,10 @@ namespace Treino_Mvc.Models
     {
         public int NoticiaId { get; set; }
         public string Titulo { get; set; }
+        public string SubTitulo { get; set; }
         public string Texto { get; set; }
         public string Imagem { get; set; }
+        public DateTime DataDaNoticia { get; set; }
         public int AutorId { get; set; }
 
 

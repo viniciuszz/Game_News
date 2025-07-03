@@ -4,6 +4,7 @@ wwwroot\images\slideshow\Baldusgate3.png
 wwwroot\images\slideshow\halo.png
 wwwroot\images\slideshow\metalgear.png
 wwwroot\images\thumbnail\baldurs_gate.webp
+wwwroot\images\thumbnail\halo.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
